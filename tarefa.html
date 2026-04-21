@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caixas de organização</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    
+
+    .box {
+      width: 140px;
+      aspect-ratio: 1 / 1;
+      display: grid;
+      place-items: center;
+      border-radius: 0;
+      padding: 0.75rem;
+      text-align: center;
+      font-weight: 700;
+      color: #081825;
+      line-height: 1.4;
+    }
+
+    .box--gray {
+      background: #d9d9d9;
+      color: #0f172a;
+    }
+
+    .box--green {
+      background: #c8f7d4;
+    }
+
+    .box--red {
+      background: #ffc9c0;
+    }
+
+    @media (max-width: 520px) {
+      .page {
+        padding: 1.5rem 0.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1 class="title">Caixas de organização</h1>
+      <p class="subtitle">Um exemplo simples em HTML e CSS, sem JavaScript. Abaixo estão caixas coloridas e alinhadas como na imagem.</p>
+    </header>
+
+    <section class="card-large">
+      <h2>Organização visual</h2>
+      <p>Use cores e tamanhos diferentes para criar uma área de conteúdo clara e fácil de entender. Cada caixa abaixo tem aproximadamente 200x200 pixels.</p>
+    </section>
+
+    <section class="row">
+      <div class="box box--gray">Uma pequena caixa de 200x200px</div>
+      <div class="box box--green">Uma pequena caixa de 200x200px</div>
+      <div class="box box--red">Uma pequena caixa de 200x200px</div>
+    </section>
+  </main>
+</body>
+</html>
