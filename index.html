@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dashboard Pessoal</h1>
+    </header>
+
+    <main class="container">
+
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Tarefas</a></li>
+                    <li><a href="#">Metas</a></li>
+                    <li><a href="#">Gastos</a></li>
+                    <li><a href="#">Configurações</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section class="content">
+
+            <section class="cards">
+                <article class="card">
+                    <h2>12</h2>
+                    <p>Tarefas</p>
+                </article>
+
+                <article class="card">
+                    <h2>5</h2>
+                    <p>Metas Concluídas</p>
+                </article>
+
+                <article class="card">
+                    <h2>R$ 450</h2>
+                    <p>Economia</p>
+                </article>
+            </section>
+
+            <section class="box">
+                <h2>Lista de Tarefas</h2>
+
+                <ul>
+                    <li>Estudar HTML ✔️</li>
+                    <li>Estudar CSS ✔️</li>
+                    <li>Estudar JavaScript ⏳</li>
+                    <li>Finalizar Projeto ❌</li>
+                </ul>
+            </section>
+
+            <section class="box">
+                <h2>Controle de Gastos</h2>
+
+                <table>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+
+                    <tr>
+                        <td>Internet</td>
+                        <td>R$ 99,90</td>
+                    </tr>
+
+                    <tr>
+                        <td>Energia</td>
+                        <td>R$ 120,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Transporte</td>
+                        <td>R$ 180,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Lazer</td>
+                        <td>R$ 150,00</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="box">
+                <h2>Metas do Mês</h2>
+
+                <ul>
+                    <li>Concluir curso HTML e CSS</li>
+                    <li>Economizar R$ 500</li>
+                    <li>Criar Portfólio Online</li>
+                </ul>
+            </section>
+
+            <section class="box">
+                <h2>Contato</h2>
+
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Digite seu email" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel"
+                           id="telefone"
+                           placeholder="(99) 99999-9999"
+                           pattern="[0-9]{11}"
+                           required>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto Final - Dashboard Pessoal</p>
+    </footer>
+
+</body>
+</html>
